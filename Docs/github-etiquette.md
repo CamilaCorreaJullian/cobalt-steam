@@ -51,16 +51,16 @@ Every final document should have a corresponding copy of the file in the LabInfo
 
 Entries in the BibTeX file should be sorted in alphabetical order according to the citation key. Consistent citation key names and sorting allows us to determine whether a citation is already present and avoid duplicate entries. Entries denoting incomplete work in progress (such as papers under review), should be pasted to the beginning of the file, so they can be found and finalized when the paper is finally published.  
 
-Example BibTeX entry (abstract omitted for length; include your abstract in the bibtex):
-@Article{GrothIJHE2017,
-  author = {Groth, Katrina M. and Hecht, Ethan S.},
-  title = {{HyRAM}: A methodology and toolkit for Quantitative Risk Assessment of hydrogen systems},
-  journal = {International Journal of Hydrogen Energy},
-  year = {2017},
-  volume = {42},
-  number = {11},
-  pages = {7485-7493},
-  doi = {10.1016/j.ijhydene.2016.07.002},
-  file = {:Papers\\Groth2017IJHE.pdf:PDF}
-}
+- Example BibTeX entry (abstract omitted for length; include your abstract in the bibtex):
+- @Article{GrothIJHE2017,
+-  author = {Groth, Katrina M. and Hecht, Ethan S.},
+-  title = {{HyRAM}: A methodology and toolkit for Quantitative Risk Assessment of hydrogen systems},
+-  journal = {International Journal of Hydrogen Energy},
+-  year = {2017},
+-  volume = {42},
+-  number = {11},
+-  pages = {7485-7493},
+-  doi = {10.1016/j.ijhydene.2016.07.002},
+-  file = {:Papers\\Groth2017IJHE.pdf:PDF}
+- }
 Note the form of the entry key “GrothIJHE2017” which includes the first author, venue [since used only for authors we cite often] and year. If there are more than one paper with the same author and year, then add a trailing version word to the second paper (do not change entry key for the first article unless you are certain it has not been cited in our reports): Smith2007, Smith2007BBNs, Smith2007RiskTheory, etc. Periodically we will generate a Word or PDF output of this BibTeX file for easier copy/pasting. 
