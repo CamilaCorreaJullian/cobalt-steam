@@ -63,4 +63,6 @@ Entries in the BibTeX file should be sorted in alphabetical order according to t
 -  doi = {10.1016/j.ijhydene.2016.07.002},
 -  file = {:Papers\\Groth2017IJHE.pdf:PDF}
 - }
+
+
 Note the form of the entry key “GrothIJHE2017” which includes the first author, venue [since used only for authors we cite often] and year. If there are more than one paper with the same author and year, then add a trailing version word to the second paper (do not change entry key for the first article unless you are certain it has not been cited in our reports): Smith2007, Smith2007BBNs, Smith2007RiskTheory, etc. Periodically we will generate a Word or PDF output of this BibTeX file for easier copy/pasting. 
