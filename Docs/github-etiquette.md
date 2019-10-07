@@ -1,8 +1,8 @@
-#Naming conventions
+# Naming conventions
 ## From Lab Guide
-##Appendix A: SyRRA File and Directory Conventions
+## Appendix A: SyRRA File and Directory Conventions
 This document describes naming and organization conventions for this file structure for the SyRRA lab.
-###File locations
+### File locations
 The SyRRA share resides on box.umd.edu. Each project has its own folder (e.g., SyRRA/NRC PRA). Graduate students also have a different folder (e.g., FirstnameLastname) for sharing your academic-related files, CV, research plans, etc. Ask your supervisor for access to the folders for each of your projects. If you see a conflicted version with your name on it -- fix it!
 File name conventions
 - Directories and filenames often include upper case characters to make them easier to read; emulate the local directory style for consistency.
@@ -28,18 +28,24 @@ Example: Groth2012_PSAM2012_HyRAM
 For documents which change from time to time, such as lab guidelines, omit the author and omit date from the filename and append a version number only for major changes.
 
 You should bundle related files, i.e., any document with more than one final format (e.g., word, pdf) or with multiple associated files (.tex, .jpg) should be stored in a directory. For the document itself, this may include different versions or the document stored in different formats (e.g, word vs. pdf). The document also includes supporting files, such as original graphics, input information, review comments, etc.
+
 #### Meeting_Notes
 This directory contains notes from meetings. Meeting number of date should be placed at beginning of file name (e.g., WeeklyMeeting17_RestOfFileName or 2018-03-17_RestOfFileName) to ensure sorting in chronological order. Meeting presentations, discussion notes, and supporting graphics, etc are stored here. In some cases you may need to look in previous meeting directories to find supporting graphics, associated with the time when they first appeared. These notes provide a useful archive to peruse project history, the history of ideas, etc.
+
 #### NotesIdeasMisc
 This directory is designed to hold information that is of sustained interest to the team. And which does not fit into the other directories. Examples include various informal analysis, pointers, etc. 
+
 #### Data [If relevant to project]
 This directory contains final “master” data sets used for the work. In some cases the data, various related processing steps, and related documentation will be saved here. Do not modify master data files – instead read the data and post-process it in your code. Once you have finalized an analysis, you should save the post-processed data with the models (see next category). Naming convention to be established; focus on consistency with other documents.
+
 #### Models_Experiments [If relevant to project]
 Models_Experiments directory contains full ensembles of files associated with important results. These include both test and demonstration results. Unlike the Data directory which is primarily focused on input data for ongoing use, the Models_Experiments directory contains finished results, which include input data, possibly an image of the code used for the test, output data, analysis spreadsheets, summary report documents, etc.
+
 #### References
 The References directory includes technical information provided by others that is potentially of interest to one or more project team members. These include informal information such as snapshots of interesting web pages or other information, and also a collection of formal literature references.
 The literature references are contained in the References\Papers directory. This directory should contain information that you might someday choose to cite in a publication. Files are named according to a consistent convention: First author last name, publication year, underscore, explanatory string. In the filename only the first author is listed unless 
 The explanatory string is always in camel case. It is often a paraphrase of the title, but not always. Example: Author2017_DoingHRAusingBNs.pdf
+
 ### Lab-wide Publication database & Bibliography files
 Every final document should have a corresponding copy of the file in the LabInfo/Publications folder. All documents (except for presentations) must also have an entry in the lab bibliography file (e.g., BibTeX file located in \LabInfo\Publications\GrothLab_Publist_vXXX.bib . You should increment the version number when you add an entry; move the old version to _Archive. Follow the naming conventions as described above. Verify that Box has appropriately synced before and after you edit the .bib file. 
 
